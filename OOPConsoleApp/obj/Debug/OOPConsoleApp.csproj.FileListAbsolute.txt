@@ -1,0 +1,9 @@
+D:\Вова\Уроки\Институт\Все предметы\Технология разработки программного обеспечения\2\OOPConsoleApp\bin\Debug\OOPConsoleApp.exe.config
+D:\Вова\Уроки\Институт\Все предметы\Технология разработки программного обеспечения\2\OOPConsoleApp\bin\Debug\OOPConsoleApp.exe
+D:\Вова\Уроки\Институт\Все предметы\Технология разработки программного обеспечения\2\OOPConsoleApp\bin\Debug\OOPConsoleApp.pdb
+D:\Вова\Уроки\Институт\Все предметы\Технология разработки программного обеспечения\2\OOPConsoleApp\obj\Debug\OOPConsoleApp.exe
+D:\Вова\Уроки\Институт\Все предметы\Технология разработки программного обеспечения\2\OOPConsoleApp\obj\Debug\OOPConsoleApp.pdb
+D:\Вова\Уроки\Институт\Все предметы\Технология разработки программного обеспечения\2\OOPConsoleApp\bin\Debug\SourceLib.dll
+D:\Вова\Уроки\Институт\Все предметы\Технология разработки программного обеспечения\2\OOPConsoleApp\bin\Debug\SourceLib.pdb
+D:\Вова\Уроки\Институт\Все предметы\Технология разработки программного обеспечения\2\OOPConsoleApp\obj\Debug\OOPConsoleApp.csprojAssemblyReference.cache
+D:\Вова\Уроки\Институт\Все предметы\Технология разработки программного обеспечения\2\OOPConsoleApp\obj\Debug\OOPConsoleApp.csproj.CopyComplete

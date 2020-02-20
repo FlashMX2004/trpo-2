@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPConsoleApp", "OOPConsoleApp.csproj", "{8ED6A2DB-0B78-4BD8-959A-A5974943E7A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceLib", "..\SourceLib\SourceLib.csproj", "{6039A3BB-13FE-441F-B0B6-FB02153C2AEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8ED6A2DB-0B78-4BD8-959A-A5974943E7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED6A2DB-0B78-4BD8-959A-A5974943E7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED6A2DB-0B78-4BD8-959A-A5974943E7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED6A2DB-0B78-4BD8-959A-A5974943E7A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6039A3BB-13FE-441F-B0B6-FB02153C2AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6039A3BB-13FE-441F-B0B6-FB02153C2AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6039A3BB-13FE-441F-B0B6-FB02153C2AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6039A3BB-13FE-441F-B0B6-FB02153C2AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13B135BA-0FCC-43ED-8EEA-4654BAE18207}
+	EndGlobalSection
+EndGlobal

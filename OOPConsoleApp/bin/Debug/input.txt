@@ -1,0 +1,27 @@
+5
+Book
+Book name
+Book author
+Book publisher
+2020
+Book
+Book name2
+Author
+Book publisher
+2020
+Paper
+Paper name
+Paper author
+Paper paper name
+5
+2020
+EResource
+EResource name
+EResource author
+EResource link
+EResource anno
+EResource
+EResource name2
+Author
+EResource link2
+EResource anno2
