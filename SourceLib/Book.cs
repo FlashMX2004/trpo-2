@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace SourceLib
 {
@@ -18,10 +19,13 @@ namespace SourceLib
         /// <summary>
         /// Displays all book properties
         /// </summary>
-        public override void Display() =>
-            Console.WriteLine("--Book--\nName: " + Name + DISPLAY_SEPARATOR + 
+        public override void Display()
+        {
+            Console.WriteLine("--Book--\nName: " + Name + DISPLAY_SEPARATOR +
                               "Author: " + Author + DISPLAY_SEPARATOR +
                               "Publish year: " + PublishYear + DISPLAY_SEPARATOR +
                               "Publisher: " + Publisher + "\n");
+            Trace.WriteLine("Display method of book was called");
+        }
     }
 }

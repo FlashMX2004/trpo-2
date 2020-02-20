@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace SourceLib
 {
@@ -22,11 +23,14 @@ namespace SourceLib
         /// <summary>
         /// Displays all paper properties
         /// </summary>
-        public override void Display() =>
+        public override void Display()
+        {
             Console.WriteLine("--Paper--\nName: " + Name + DISPLAY_SEPARATOR +
                               "Author: " + Author + DISPLAY_SEPARATOR +
                               "Paper name: " + PaperName + DISPLAY_SEPARATOR +
                               "Paper number: " + PaperNumber + DISPLAY_SEPARATOR +
                               "Publish year: " + PublishYear + "\n");
+            Trace.WriteLine("Display method of paper was called");
+        }
     }
 }

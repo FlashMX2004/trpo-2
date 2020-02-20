@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using System.Text;
+using System.Xml.Serialization;
 using SourceLib;
 
 namespace OOPConsoleApp
@@ -21,6 +22,10 @@ namespace OOPConsoleApp
         /// E-resource source string
         /// </summary>
         private const string ERESOURCE = "EResource";
+        /// <summary>
+        /// Xml serializer, that serializes source array
+        /// </summary>
+        private static readonly XmlSerializer xml = new XmlSerializer(typeof(Source[]));
 
         /// <summary>
         /// Reads sources from file with path
@@ -44,7 +49,16 @@ namespace OOPConsoleApp
             
             return result;
         }
-
+        /// <summary>
+        /// Saves sources into xml file
+        /// </summary>
+        /// <param name="path">Path to file or file name</param>
+        /// <param name="sources">Sources to save</param>
+        public static void WriteToXML(string path, Source[] sources)
+        {
+            using FileStream stream = new FileStream(path, FileMode.Create);
+            xml.Serialize(stream, sources);
+        }
         /// <summary>
         /// Reads next source from file by stream reader
         /// </summary>

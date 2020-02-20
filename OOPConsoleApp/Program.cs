@@ -10,10 +10,15 @@ namespace OOPConsoleApp
         /// Name of file to read sources
         /// </summary>
         private const string READ_FILE_NAME = "input.txt";
+        /// <summary>
+        /// Name of file to write sources
+        /// </summary>
+        private const string WRITE_FILE_NAME = "output.xml";
 
         private static void Main(string[] args)
         {
             Source[] sources = FileManager.ReadFromFile(READ_FILE_NAME);
+                               FileManager.WriteToXML(WRITE_FILE_NAME, sources);
             foreach (Source source in sources) source.Display();
             while (Search(sources)) ;
         }

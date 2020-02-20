@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<ArrayOfSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Source xsi:type="Book">
+    <Name>Book name</Name>
+    <Author>Book author</Author>
+    <Publisher>Book publisher</Publisher>
+    <PublishYear>2020</PublishYear>
+  </Source>
+  <Source xsi:type="Book">
+    <Name>Book name2</Name>
+    <Author>Author</Author>
+    <Publisher>Book publisher</Publisher>
+    <PublishYear>2020</PublishYear>
+  </Source>
+  <Source xsi:type="Paper">
+    <Name>Paper name</Name>
+    <Author>Paper author</Author>
+    <PaperName>Paper paper name</PaperName>
+    <PaperNumber>5</PaperNumber>
+    <PublishYear>2020</PublishYear>
+  </Source>
+  <Source xsi:type="EResource">
+    <Name>EResource name</Name>
+    <Author>EResource author</Author>
+    <Link>EResource link</Link>
+    <Annotation>EResource anno</Annotation>
+  </Source>
+  <Source xsi:type="EResource">
+    <Name>EResource name2</Name>
+    <Author>Author</Author>
+    <Link>EResource link2</Link>
+    <Annotation>EResource anno2</Annotation>
+  </Source>
+</ArrayOfSource>

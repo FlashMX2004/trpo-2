@@ -3,6 +3,9 @@
     /// <summary>
     /// Base class for readable objects
     /// </summary>
+    [System.Xml.Serialization.XmlInclude(typeof(Book))]
+    [System.Xml.Serialization.XmlInclude(typeof(Paper))]
+    [System.Xml.Serialization.XmlInclude(typeof(EResource))]
     public abstract class Source
     {
         /// <summary>
